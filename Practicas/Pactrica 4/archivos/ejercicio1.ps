@@ -1,0 +1,93 @@
+%!
+/Times-Roman findfont
+20 scalefont
+setfont
+
+newpath
+0.0 setgray
+150 300 moveto
+gsave
+90 rotate
+(Mi casita) show 
+grestore
+stroke
+
+% Base de la casa
+newpath
+0.7 setgray
+200	300	moveto
+140   0 rlineto
+0   100 rlineto
+-140  0 rlineto
+closepath
+fill
+stroke
+
+% Linea Base
+newpath
+0.5 0.6 0.76 setrgbcolor % Línea de contorno
+200	300 moveto
+140   0 rlineto
+0   100 rlineto
+-140  0 rlineto
+closepath
+stroke
+
+% Linea Puerta
+newpath
+0.5 0.6 0.76 setrgbcolor	% Línea de contorno
+255 300 moveto
+30    0 rlineto
+0    50 rlineto
+-30   0 rlineto
+
+closepath
+stroke
+
+% Linea Ventana Izq
+newpath
+0.5 0.6 0.76 setrgbcolor	% Línea de contorno
+210 360 moveto
+30    0 rlineto
+ 0   20 rlineto
+ -30  0 rlineto
+closepath
+stroke
+
+
+% Linea Ventana Dcha
+newpath
+0.5 0.6 0.76 setrgbcolor	% Línea de contorno
+300 360 moveto
+30    0 rlineto
+ 0   20 rlineto
+ -30  0 rlineto
+closepath
+stroke
+
+% Tejado Relleno
+newpath
+0.7 setgray
+180 400 moveto
+180   0 rlineto
+-90  80 rlineto
+
+closepath
+fill
+stroke
+
+
+% Linea contorno tejado
+0.5 0.6 0.76 setrgbcolor	% Línea de contorno
+180 400 moveto
+180   0 rlineto
+-90  80 rlineto
+closepath
+stroke
+
+
+
+
+
+showpage
+%Fin

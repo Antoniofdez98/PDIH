@@ -1,0 +1,101 @@
+%!
+
+newpath			% Start a new path
+
+175 750 moveto
+255  0 rlineto
+0 -165 rlineto
+-255  0 rlineto
+
+0.93 0.93 0.93 setrgbcolor
+
+fill
+
+closepath
+
+5 setlinewidth
+
+stroke
+
+newpath
+
+0 setgray
+0.8 setlinewidth
+% x  y   R  angI angF
+ 235 675   35   0   360   arc closepath
+gsave
+0.50 0.50 0.50 setrgbcolor fill
+grestore
+
+
+stroke
+
+closepath
+
+
+/Times-Roman findfont
+15 scalefont
+setfont
+
+newpath
+300 685 moveto
+(Drago Kovacevic) show
+stroke
+
+
+closepath
+
+/Times-Roman findfont	% Get the basic font
+11 scalefont		
+setfont			% Make it the current font
+
+newpath
+0.4 0.4 0.4 setrgbcolor
+305 670 moveto
+(Ejecutivo de Cuentas) show
+
+closepath
+
+/Times-Roman findfont	% Get the basic font
+8 scalefont		
+setfont			% Make it the current font
+
+newpath			% Start a new path
+315 635 moveto	
+0.4 0.4 0.4 setrgbcolor	
+(Paseo de la Castellana, 141) show    
+stroke
+closepath
+
+
+newpath			% Start a new path
+312 625 moveto	
+0.4 0.4 0.4 setrgbcolor	
+(Local 2 - Edificio Cuzco IV) show    
+stroke
+closepath
+
+
+newpath			% Start a new path
+355 615 moveto	
+0.4 0.4 0.4 setrgbcolor	
+(28046 Madrid) show    
+stroke
+closepath
+
+newpath			% Start a new path
+297 605 moveto	
+0.4 0.4 0.4 setrgbcolor	
+(Tels. 914 174 550 / 669 896 224) show    
+stroke
+closepath
+
+newpath			% Start a new path
+346 599 moveto	
+0.4 0.4 0.4 setrgbcolor	
+(drago@serotel.es) show    
+stroke
+closepath
+
+
+showpage		% We're done... eject the page

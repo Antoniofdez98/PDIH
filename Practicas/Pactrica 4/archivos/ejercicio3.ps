@@ -1,0 +1,92 @@
+%!
+
+%Base Contorno
+newpath
+0.00 0.00 0.00 setrgbcolor % Línea de contorno
+0   200 moveto
+600 0  rlineto
+0  400 rlineto
+-600 0 rlineto
+closepath
+stroke
+
+% Circunferencia corazon 1
+
+newpath
+1.00 0.00 0.00 setrgbcolor
+% x  y   R  angI angF
+ 100 500   40   0   360   arc closepath
+gsave
+
+grestore
+fill
+closepath
+
+stroke
+
+% Circunferencia corazon 2
+
+newpath
+1.00 0.00 0.00 setrgbcolor
+% x  y   R  angI angF
+ 170 500   40   0   360   arc closepath
+gsave
+
+grestore
+fill
+
+closepath
+stroke
+
+% Triangulo corazon
+newpath
+1.00 0.00 0.00 setrgbcolor
+65 480 moveto
+140  0 rlineto
+-68  -90 rlineto
+
+fill
+closepath
+
+newpath			% Start a new path
+285 700 moveto		
+
+(Sierra Blanca) show   
+stroke
+
+closepath
+
+/Times-Roman findfont	% Get the basic font
+20 scalefont		
+setfont			% Make it the current font
+
+newpath			% Start a new path
+200 380 moveto	
+0.75 0.75 0.75 setrgbcolor	
+(La belleza no es nada, no permanece.) show    
+stroke
+closepath
+
+newpath			% Start a new path
+200 360 moveto	
+0.50 0.50 0.50 setrgbcolor	
+(No sabes la suerte que tienes sin belleza.) show    
+stroke
+closepath
+
+newpath			% Start a new path
+200 340 moveto	
+0.33 0.33 0.33 setrgbcolor	
+(Porque si le gustas a alguien,) show    
+stroke
+closepath
+
+newpath			% Start a new path
+200 320 moveto	
+0.00 0.00 0.00 setrgbcolor	
+(sabes que es por otra cosa.) show    
+stroke
+closepath
+
+stroke
+showpage
