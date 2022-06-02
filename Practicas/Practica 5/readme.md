@@ -97,7 +97,7 @@ listen(filtrofrecuencia)
 plot(extractWave(filtrofrecuencia, from = 1, to=393984))
 ```
 
-![](imgs/filtrofrecuencia.png)
+![](imgs/ej_6.png)
 
 7. Almacenar la señal obtenida como un fichero WAV denominado “mezcla.wav”. 
 
